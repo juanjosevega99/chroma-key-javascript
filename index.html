@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chroma Key</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+    </style>
 </head>
 <body>
-    
+    <video src="" id="video" autoplay></video>
+    <script src="">
+        const video = document.querySelector('#video')
+
+        navigator.mediaDevices.getUserMedia({
+            video: true
+        })
+        .then(() => {
+            
+        })
+    </script>
 </body>
 </html>
